@@ -15,7 +15,7 @@ elif edad > 120:
 else:
     print("Eres mayor de edad.")
 
-# version con match-case
+# version con match-case    
 match edad:
     case _ if edad < 0:
         print("Error: La edad no puede ser negativa.")
