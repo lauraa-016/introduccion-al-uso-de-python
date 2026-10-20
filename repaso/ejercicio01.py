@@ -1,3 +1,6 @@
+"""
+1. Añade una película a la lista (con todos los datos completos).
+"""
 from datos import peliculas
 
 nueva_pelicula = {
