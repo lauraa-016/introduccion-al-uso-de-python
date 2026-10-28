@@ -4,3 +4,5 @@ distintas.
 """
 from datos import jugadores 
 
+lista = [j["nombre"] for j in jugadores if len(j["filigranas"]) > 2]
+print(lista)
