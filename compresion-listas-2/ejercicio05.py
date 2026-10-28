@@ -1,0 +1,10 @@
+"""
+5. Muestra una lista con los comentarios que tengan más de 40 caracteres.
+"""
+from datos import series
+
+from datos import series
+
+lista_comentarios = [ r["comentario"] for s in series for r in s["reseñas"] if len(r["comentario"]) > 40 ]
+
+print(lista_comentarios)
