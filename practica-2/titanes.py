@@ -149,7 +149,7 @@ def ejercicio9():
 def ejercicio10():
     media = [
         sum([p["estatura_m"] for p in personajes]) / len(personajes)
-    ][0]
+    ]
 
     resultado = [
         (p["nombre"], p["estatura_m"])
